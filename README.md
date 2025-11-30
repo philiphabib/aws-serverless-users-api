@@ -1,11 +1,13 @@
 🚀 AWS Serverless Users CRUD API
 
 A fully serverless CRUD (Create, Read, Update, Delete) application built with AWS Lambda, API Gateway, DynamoDB, and an optional HTML frontend.
-Perfect for portfolios, production APIs, and cloud engineering demonstrations.
+
+Perfect for production APIs, and cloud engineering demonstrations.
 
 📌 Project Overview
 
 This project demonstrates a complete backend API using AWS Serverless services.
+
 It includes:
 
 AWS Lambda — business logic in Node.js
@@ -36,23 +38,6 @@ Frontend (HTML/JavaScript) → API Gateway → Lambda → DynamoDB
 
 All operations use DynamoDB and return clean, formatted JSON responses.
 
-📁 Project Structure
-aws-serverless-users-api/
-├── backend/
-│   ├── index.js                 # Lambda CRUD logic
-│   ├── package.json             # AWS SDK dependencies
-│
-├── frontend/
-│   ├── index.html               # CRUD test UI
-│
-├── test/
-│   ├── test.sh                  # Automated CRUD testing
-│
-├── postman/
-│   ├── users-api.postman_collection.json
-│
-└── README.md                    # Documentation
-
 🛠️ Technologies Used
 Component	Technology
 Compute	AWS Lambda
@@ -61,6 +46,7 @@ Database	DynamoDB
 Runtime	Node.js (AWS SDK v3)
 Frontend	HTML, CSS, JavaScript
 Testing	Postman & Bash script
+
 🚀 Deployment Notes
 
 Create a DynamoDB table:
