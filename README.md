@@ -1,3 +1,2 @@
-# AWS Serverless Users API
-
-...
+# Users API
+Serverless project.
