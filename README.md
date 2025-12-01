@@ -81,7 +81,7 @@ Redeploy API.
 
 Assume base URL:
 
-https://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod/users
+https://i9wm4w38r9.execute-api.us-east-1.amazonaws.com/prod/users
 
 ➤ POST /users
 
